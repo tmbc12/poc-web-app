@@ -1,11 +1,56 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Search } from 'lucide-react';
+// import { searchData } from "./search.data.js";
 
-const searchbar = () => {
-  return (
-    <div>
-      search bar
-    </div>
-  )
+const Searchbar = () => {
+
+    // const [items, setItems] = useState(searchData);
+
+
+    return (
+        <div className=' h-[100vh]'>
+            <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?"
+                className=" mx-auto w-[60%]"
+            />
+            <div className=' mt-10'>
+                <div className=' mx-auto p-14 flex flex-col justify-center items-center w-[700px] bg-gray-200 bg-opacity-10 rounded-3xl bg-transparent'>
+                    <div className=" flex justify-center items-center  gap-10 ">
+                        <div className=' flex items-center justify-center gap-6 border-[1px] border-gray-400 rounded-lg'>
+                            <Search color='white' className=' ml-3' />
+                            <input type="text" placeholder='Search' className=' w-[500px] p-3 bg-transparent text-white' />
+                        </div>
+                    </div>
+
+                    <div className=' flex justify-center items-center gap-20 mt-5'>
+                        <h1 className=' text-white text-[10px]'>Try asking for :</h1>
+                        <div className=' flex gap-2'>
+                            <div className=' flex flex-col text-white gap-3'>
+                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Best street wears under 3000</button>
+                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Valentine’s Day Outfits</button>
+                            </div>
+                            <div className=' flex flex-col text-white gap-3'>
+                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Nike Shoes</button>
+                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Branded watches under 5000</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?"
+                className=" mx-auto mt-24 w-[60%] "
+            />
+        </div>
+    )
 }
 
-export default searchbar
+export default Searchbar
+
+//  {/* {items.map((item) =>(
+//                 <div key={item.id} className=' grid grid-cols-3 grid-rows-2 gap-5'>
+//                     <button className=' text-white'>{item.title}</button>
+//                 </div>
+//             ))} */}
