@@ -3,20 +3,20 @@ import TabRender from './tabRender'
 
 export default function App() {
     return (
-        <div>
+        <div className=" flex flex-col ">
 
             <TabRender
                 tabs={[
                     {
                         title: "Overview", render: () =>
-                            <h2 className=" text-white w-[600px]">
+                            <h2 className=" text-white mt-4 w-[600px] max-sm:w-[300px] max-sm:p-2">
                                 Tees Collection specialize in making men's clothes with characteristics of fashionable,comfortable and elegant. To show a kind of fashionable and special dressing style, appear the person's vigorous and vitality personality, and express his active and optimistic attitude of life. Wear our professional design high quality men's shirts, you will become more elegant and fascinating. Our designers are attention to every detail of the design and pursue exquisite sewing process.
                             </h2>
                     },
 
                     {
                         title: "Specifications", render: () =>
-                            <div className=" text-white mt-3 flex flex-col justify-center items-start">
+                            <div className=" text-white mt-3 ">
                                 <div className=" grid grid-cols-2 grid-rows-1 gap-8 w-40 ">
                                     <h2>Type</h2>
                                     <h2 className=" w-40">Mandarin Collar</h2>
@@ -62,12 +62,12 @@ export default function App() {
 
                     {
                         title: "Reviews", render: () =>
-                            <div className=" text-white">
+                            <div className=" text-white mt-5">
                                 <div className="flex flex-col max-w-[328px]">
                                     <div className="flex gap-5 justify-between">
                                         <div className="flex flex-col px-5 basis-0">
-                                            <div className="text-5xl font-medium text-stone-50">2.0</div>
-                                            <div className="flex gap-px px-0.5 mt-2.5">
+                                            <div className="text-2xl font-medium text-stone-50">2.0</div>
+                                            <div className="flex gap-px px-0.5 mt-">
                                                 <img
                                                     loading="lazy"
                                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/532402fc7c4622d442684c39c17eeeb4273277024a7956beaa0cab356ebb557f?"
@@ -99,52 +99,39 @@ export default function App() {
                                             </div>
                                         </div>
 
-                                        <div className="flex flex-col flex-1 self-start">
-                                            <div className="flex gap-4 self-center px-5 mt-1 ml-12">
-                                                <div className="grow text-xs font-medium leading-8 text-white text-opacity-70">
-                                                    1
-                                                </div>
-                                                <div className="flex flex-col flex-1 justify-center pr-16 bg-white bg-opacity-30 rounded-[40px]">
-                                                    <div className="h-2.5 bg-stone-50 rounded-[40px] w-[146px]" />
+                                        <div>
+                                            <div className=" flex gap-2">
+                                                <div class="mb-1 text-base font-medium dark:text-white">5</div>
+                                                <div class=" bg-gray-400 rounded-full h-1.5 mb-4 dark:bg-gray-700 w-40 mt-2 ">
+                                                    <div class="bg-blue-600 h-1.5 rounded-full dark:bg-white w-20" ></div>
                                                 </div>
                                             </div>
-                                            <div className="flex gap-3.5 justify-between px-5 mt-1.5 w-full">
-
-                                                <div className="text-xs font-medium leading-8 text-white text-opacity-70">
-                                                    2
-                                                </div>
-                                                <div className="flex flex-col flex-1 justify-center self-start bg-white bg-opacity-30 rounded-[40px]">
-                                                    <div className="shrink-0 h-2.5 bg-stone-50 rounded-[40px]" />
+                                            <div className=" flex gap-2">
+                                                <div class="mb-1 text-base font-medium dark:text-white">4</div>
+                                                <div class=" bg-gray-400 rounded-full h-1.5 mb-4 dark:bg-gray-700 w-40 mt-2 ">
+                                                    <div class="bg-blue-600 h-1.5 rounded-full dark:bg-white w-12" ></div>
                                                 </div>
                                             </div>
-
-                                            <div className="flex gap-3.5 justify-between px-5">
-                                                <div className="grow text-xs font-medium leading-8 text-white text-opacity-70">
-                                                    5
-                                                </div>
-                                                <div className="flex flex-col flex-1 justify-center bg-white bg-opacity-30 rounded-[40px]">
-                                                    <div className="shrink-0 h-2.5 bg-stone-50 rounded-[40px]" />
+                                            <div className=" flex gap-2">
+                                                <div class="mb-1 text-base font-medium dark:text-white">3</div>
+                                                <div class=" bg-gray-400 rounded-full h-1.5 mb-4 dark:bg-gray-700 w-40 mt-2 ">
+                                                    <div class="bg-blue-600 h-1.5 rounded-full dark:bg-white w-8" ></div>
                                                 </div>
                                             </div>
-                                            <div className="flex gap-3 justify-between px-5 mt-2.5">
-                                                <div className="grow text-xs font-medium leading-8 text-white text-opacity-70">
-                                                    4
-                                                </div>
-                                                <div className="flex flex-col flex-1 justify-center bg-white bg-opacity-30 rounded-[40px]">
-                                                    <div className="shrink-0 h-2.5 bg-stone-50 rounded-[40px]" />
+                                            <div className=" flex gap-2">
+                                                <div class="mb-1 text-base font-medium dark:text-white">2</div>
+                                                <div class=" bg-gray-400 rounded-full h-1.5 mb-4 dark:bg-gray-700 w-40 mt-2 ">
+                                                    <div class="bg-blue-600 h-1.5 rounded-full dark:bg-white w-5" ></div>
                                                 </div>
                                             </div>
-                                            <div className="flex gap-3.5 justify-between px-5 mt-2.5">
-                                                <div className="grow text-xs font-medium leading-8 text-white text-opacity-70">
-                                                    3
-                                                </div>
-                                                <div className="flex flex-col flex-1 justify-center bg-white bg-opacity-30 rounded-[40px]">
-                                                    <div className="shrink-0 h-2.5 bg-stone-50 rounded-[40px]" />
+                                            <div className=" flex gap-2">
+                                                <div class="mb-1 text-base font-medium dark:text-white">1</div>
+                                                <div class=" bg-gray-400 rounded-full h-1.5 mb-4 dark:bg-gray-700 w-40 mt-2 ">
+                                                    <div class="bg-blue-600 h-1.5 rounded-full dark:bg-white w-32" ></div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                     }

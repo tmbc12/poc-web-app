@@ -28,12 +28,12 @@ const Searchbar = () => {
                         <div className=' flex gap-2'>
                             <div className=' flex flex-col text-white gap-3'>
                                 <a href="/productpage">
-                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>T-Shirts</button></a>
-                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Hoodies</button>
+                                <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>T-Shirts</button></a>
+                                <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Hoodies</button>
                             </div>
                             <div className=' flex flex-col text-white gap-3'>
-                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Nike Shoes</button>
-                                <button className=' bg-gray-100 bg-opacity-5 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Mens Shirts</button>
+                                <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Nike Shoes</button>
+                                <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Mens Shirts</button>
                             </div>
                         </div>
                     </div>

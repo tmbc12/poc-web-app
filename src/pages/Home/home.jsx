@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../../assets/imgs/Mask group.png"
 const home = () => {
     return (
-        <div className=''>
+        <div className=' bg-[#4b1f5252] h-screen w-full'>
             <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?"
@@ -34,7 +34,7 @@ const home = () => {
             <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?"
-                className=" mx-auto flex justify-self-end max-md:mt-10 max-md:max-w-full"
+                className=" mx-auto mt-24 flex justify-self-end max-md:mt-10 max-md:max-w-full"
             />
         </div>
     );

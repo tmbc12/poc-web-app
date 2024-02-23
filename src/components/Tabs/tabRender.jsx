@@ -51,6 +51,7 @@ const Title = styled.span`
   height: inherit;
   text-transform: uppercase;
   font-size: 15px;
+  font-weight: bolder;
   color: ${props => (props.active ? "#3e5b5b" : "#333")};
   transition: 0.6s;
 `;
