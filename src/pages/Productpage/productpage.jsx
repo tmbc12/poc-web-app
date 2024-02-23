@@ -6,7 +6,7 @@ const Productpage = () => {
     return (
         <div>
             <div>
-                <div className=' container mx-auto p-2 flex justify-between items-center mt-10 max-md:flex-col max-md:justify-start max-md:items-start'>
+                <div className=' container mx-auto px-10 flex justify-between items-center mt-10 max-md:flex-col max-md:justify-start max-md:items-start'>
                     <h1 className=' text-white font-extrabold text-2xl'>List of Black T- shirt</h1>
                     <div className=' flex justify-between gap-5 items-center text-white max-sm:gap-1 max-md:mt-3'>
                         <button className=' bg-gray-600 bg-opacity-55 p-2 px-4 rounded-3xl font-medium'>Lowest Price</button>
@@ -15,7 +15,7 @@ const Productpage = () => {
                     </div>
                 </div>
             </div>
-            <div className=' grid grid-cols-4 grid-rows-3 gap-4 justify-center items-center p-10 xl:grid-cols-5 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center '>
+            <div className=' grid grid-cols-4 grid-rows-3 gap-4 justify-center items-center p-16 xl:grid-cols-5 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center '>
                 {items.map((item) => (
                     <div key={item.id} className=' flex gap-5 justify-center items-center max-sm:items-center max-sm:justify-center '>
                         <div className="flex overflow-hidden relative flex-col shadow-2xl aspect-[0.72] max-w-[329px]">
