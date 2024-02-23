@@ -8,8 +8,8 @@ import Singleproduct from "../src/components/SingleProductPage/singleProductPage
 import Sidebar from './components/Sidebar/Sidebar';
 function App() {
   return (
-    <div className=" bg-black flex">
-      <Sidebar />
+    <div className=" bg-black flex h-screen overflow-hidden">
+      
       <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/search' element={<Searchbar />} />

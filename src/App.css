@@ -190,7 +190,7 @@ main {
       font-size: smaller;
       position: relative;
       z-index: 2;
-      padding: 5px 10px;
+      padding: 2px 10px;
       width: max-content;
       display: block;
       background: linear-gradient(180deg,
@@ -290,4 +290,10 @@ body.registerProperty-not-supported {
   & button .shadow {
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
+}
+
+.btn {
+  border-radius: 20px;
+  border: 1px solid #F88CFF;
+  background: var(--Button, radial-gradient(100% 100% at 50% 0%, #FB74FF 0%, #833990 99.95%), #3A3949);
 }

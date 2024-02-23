@@ -13,11 +13,11 @@ const SingleProductPage = () => {
       <div className=' flex pl-40 mt-9 max-sm:pl-0 max-sm:p-3'>
         <Tabs />
       </div>
-      <div className=' mt-4 pl-20'>
+      <div className=' mt-4 pl-20 pb-20 '>
         <button className=' bg-white py-1 px-32 rounded-2xl font-bold'>Buy Now</button>
-        <div className=' flex gap-2 mt-4'>
+        <div className=' flex gap-2 mt-4 '>
           <input className=' p-3 bg-black bg-opacity-25 w-[260px] rounded-3xl' type="text" placeholder='Search more about your product' />
-          <div className=' bg-white w-12 rounded-3xl p-3 cursor-pointer'>
+          <div className=' bg-white w-12 rounded-3xl p-3 cursor-pointer '>
             <SendHorizontal />
           </div>
         </div>

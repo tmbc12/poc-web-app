@@ -7,6 +7,7 @@ import Searchbar from './pages/Searchbar/searchbar';
 import Productpage from './pages/Productpage/productpage';
 import Singleproduct from "../src/components/SingleProductPage/singleProductPage"
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Sidebar from './components/Sidebar/Sidebar';
 
 const router = createBrowserRouter([
   {

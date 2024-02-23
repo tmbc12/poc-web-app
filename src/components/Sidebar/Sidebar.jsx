@@ -5,7 +5,7 @@ import { Home, Search, LibraryBig, LogIn } from 'lucide-react';
 const Sidebar = () => {
   return (
     <div className='  h-screen w-64 bg-[#4b1f5252] text-white'>
-      <div className=' flex items-center justify-center mt-10 '>
+      <div className=' flex items-center justify-center pt-10 '>
         <a href="/">
           <img src={Logo} alt="" className=' w-12' />
         </a>
@@ -33,7 +33,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div className=' flex items-center justify-center mt-5'>
-        <button className=' bg-[#FB74FF] text-white p-1 px-14 rounded-2xl font-bold'>Sign Up</button>
+        <button className=' btn text-white p-1 px-14 rounded-2xl font-bold'>Sign Up</button>
       </div>
     </div>
   )
