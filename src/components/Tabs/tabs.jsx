@@ -71,27 +71,27 @@ export default function App() {
                                                 <img
                                                     loading="lazy"
                                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/532402fc7c4622d442684c39c17eeeb4273277024a7956beaa0cab356ebb557f?"
-                                                    className="aspect-square fill-zinc-300 w-[11px]"
+                                                    className="aspect-square fill-zinc-300 w-[11px]" alt=""
                                                 />
                                                 <img
                                                     loading="lazy"
                                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/9c0d4266cccef5485686b96544ec4eabe8bc552c509d2f141974522d8903f284?"
-                                                    className="aspect-square fill-zinc-300 w-[11px]"
+                                                    className="aspect-square fill-zinc-300 w-[11px]" alt=""
                                                 />
                                                 <img
                                                     loading="lazy"
                                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/a061a89b14c69aa9f0f7386aa81806add92a0d7539af866b83d1ef37857c1e45?"
-                                                    className="aspect-square fill-white fill-opacity-30 w-[11px]"
+                                                    className="aspect-square fill-white fill-opacity-30 w-[11px]" alt=""
                                                 />
                                                 <img
                                                     loading="lazy"
                                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/1400eb4afefbc45a3075b0ca7c96afff11e3a9720a65d71d4ab642cfd8a7ea50?"
-                                                    className="aspect-square fill-white fill-opacity-30 w-[11px]"
+                                                    className="aspect-square fill-white fill-opacity-30 w-[11px]" alt=""
                                                 />
                                                 <img
                                                     loading="lazy"
                                                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c31979cc704631173b15482f622ee51f66051671e11f8bcad3063dab047cabf?"
-                                                    className="aspect-square fill-white fill-opacity-30 w-[11px]"
+                                                    className="aspect-square fill-white fill-opacity-30 w-[11px]" alt=""
                                                 />
                                             </div>
                                             <div className="text-sm font-medium leading-8 text-white text-opacity-70">

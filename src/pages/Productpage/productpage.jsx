@@ -22,7 +22,7 @@ const Productpage = () => {
                             <a href="/singleproduct">
                                 <img
                                     loading="lazy"
-                                    src={item.image}
+                                    src={item.image} alt=''
                                     className="object-cover absolute inset-0 w-[250px]"
                                 />
                             </a>
@@ -47,7 +47,7 @@ const Productpage = () => {
                                     <h2 className="my-auto">{item.ratting}</h2>
                                     <img
                                         loading="lazy"
-                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d4b43cc0394ff57a89d8fc17bc98b7d99b40554f232576963f547b9a2f5a0c1?"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d4b43cc0394ff57a89d8fc17bc98b7d99b40554f232576963f547b9a2f5a0c1?" alt=''
                                         className="aspect-square w-[18px]"
                                     />
                                 </div>

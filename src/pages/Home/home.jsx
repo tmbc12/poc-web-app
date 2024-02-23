@@ -6,7 +6,7 @@ const home = () => {
             <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?"
-                className=" mx-auto"
+                className=" mx-auto" alt=''
             />
             <div className=" my-auto flex flex-col justify-center items-center">
                 <img className=' w-12' src={logo} alt="logo" />
@@ -33,7 +33,7 @@ const home = () => {
             </div>
             <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?" alt=''
                 className=" mx-auto mt-24 flex justify-self-end max-md:mt-10 max-md:max-w-full"
             />
         </div>

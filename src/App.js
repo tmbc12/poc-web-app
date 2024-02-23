@@ -10,14 +10,12 @@ function App() {
   return (
     <div className=" bg-black flex">
       <Sidebar />
-      <div>
-        <Routes>
+      <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/search' element={<Searchbar />} />
           <Route path='/productpage' element={<Productpage />} />
           <Route path='/singleproduct' element={<Singleproduct />} />
         </Routes>
-      </div>
     </div>
   );
 }

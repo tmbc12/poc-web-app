@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Search } from 'lucide-react';
 // import { searchData } from "./search.data.js";
 
@@ -11,7 +11,7 @@ const Searchbar = () => {
         <div className=' h-[100vh]'>
             <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/ 749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?" alt=''
                 className=" mx-auto w-[60%]"
             />
             <div className=' mt-10'>
@@ -41,7 +41,7 @@ const Searchbar = () => {
             </div>
             <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?" alt=''
                 className=" mx-auto mt-24 w-[60%] "
             />
         </div>
