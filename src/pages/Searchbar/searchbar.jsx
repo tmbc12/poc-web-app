@@ -1,52 +1,53 @@
 import React from 'react';
-import { Search } from 'lucide-react';
+import { Link2 } from 'lucide-react';
 import Sidebar from '../../components/Sidebar/Sidebar';
-// import { searchData } from "./search.data.js";
 
 const Searchbar = () => {
 
-    // const [items, setItems] = useState(searchData);
 
 
     return (
         <div className=' flex '>
-           <Sidebar />
+            <Sidebar />
             <div className=' bg-[#4b1f5252] h-screen w-screen border-l-4 border-gray-800 border-opacity-40 '>
-                <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?" alt=''
-                    className=" mx-auto w-[60%]"
-                />
-                <div className=' mt-10'>
-                    <div className=' mx-auto p-14 flex flex-col justify-center items-center w-[700px] bg-gray-200 bg-opacity-10 rounded-3xl bg-transparent'>
-                        <div className=" flex justify-center items-center  gap-10 ">
-                            <div className=' flex items-center justify-center gap-6 border-[1px] border-gray-400 rounded-lg'>
-                                <Search color='white' className=' ml-3' />
-                                <input type="text" placeholder='Search' className=' w-[500px] p-3 bg-transparent text-white' />
+                <div className=' flex flex-col items-center justify-start pt-20'>
+                    <h1 className=' text-white text-3xl'>Discover personalized online shopping.</h1>
+                    <div className=' flex flex-col justify-center items-center mt-9 gap-10'>
+                        <h5 className=' text-white '>Example Prompts</h5>
+                        <div className=' grid grid-cols-3 grid-rows-1 gap-4 max-lg:grid-cols-2 max-md:grid-cols-1'>
+                            <div className=' bg-gray-500 bg-opacity-10 w-[250px] p-1 border-[1px] border-gray-500 rounded-2xl'>
+                                <div className=' flex gap-3 bg-gray-500 bg-opacity-10 w-36 p-2 border-[1px] border-gray-500  justify-center items-center mt-5 rounded-3xl'>
+                                    <img src="https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/d422e661-0823-e11e-0c9b-bd4a40260c95.png" alt="" />
+                                    <h2 className=' text-white font-medium'>tag heading</h2>
+                                </div>
+                                <h3 className=' text-white mt-5 pl-3'>Trending smart watches 2024</h3>
+                            </div>
+                            <div className=' bg-gray-500 bg-opacity-10 w-[250px] p-2 border-[1px] border-gray-500 rounded-2xl'>
+                                <div className=' flex gap-3 bg-gray-500 bg-opacity-10 w-36 p-2 border-[1px] border-gray-500 justify-center items-center mt-5 rounded-3xl'>
+                                    <img src="https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/d422e661-0823-e11e-0c9b-bd4a40260c95.png" alt="" />
+                                    <h2 className=' text-white font-medium'>tag heading</h2>
+                                </div>
+                                <h3 className=' text-white mt-5 pl-3'>Portable vacuum cleaner</h3>
+                            </div>
+                            <div className=' bg-gray-500 bg-opacity-10 w-[250px] p-2 border-[1px] border-gray-500 rounded-2xl'>
+                                <div className=' flex gap-3 bg-gray-500 bg-opacity-10 w-36 p-2 border-[1px] border-gray-500 justify-center items-center mt-5 rounded-3xl'>
+                                    <img src="https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/d422e661-0823-e11e-0c9b-bd4a40260c95.png" alt="" />
+                                    <h2 className=' text-white font-medium'>tag heading</h2>
+                                </div>
+                                <h3 className=' text-white mt-5 pl-3'>Kurti sets under 600</h3>
                             </div>
                         </div>
-
-                        <div className=' flex justify-center items-center gap-20 mt-5'>
-                            <h1 className=' text-white text-[10px]'>Try asking for :</h1>
-                            <div className=' flex gap-2'>
-                                <div className=' flex flex-col text-white gap-3'>
-                                    <a href="/productpage">
-                                        <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>T-Shirts</button></a>
-                                    <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Hoodies</button>
-                                </div>
-                                <div className=' flex flex-col text-white gap-3'>
-                                    <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Nike Shoes</button>
-                                    <button className=' bg-gray-100 bg-opacity-15 text-xs p-1 px-8 rounded-3xl transition duration-300 hover:scale-105'>Mens Shirts</button>
+                        <div className=' mt-40'>
+                            <div className=' flex bg-gray-800 bg-opacity-15 border-[1px] border-gray-500 p-3 rounded-full shadow-md'>
+                                <input type="text" placeholder='search' className=' w-[400px] bg-transparent' />
+                                <div className=' flex bg-white rounded-full py-1.5 px-4 w-28 gap-2'>
+                                    <img  src="https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/4d8cc4cc-96df-ab19-3c93-78214354624b.png" alt="" />
+                                    <button className=' text-black font-semibold bg-white'>Search</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?" alt=''
-                    className=" mx-auto mt-24 w-[60%] "
-                />
             </div>
         </div>
     )
@@ -54,8 +55,3 @@ const Searchbar = () => {
 
 export default Searchbar
 
-//  {/* {items.map((item) =>(
-//                 <div key={item.id} className=' grid grid-cols-3 grid-rows-2 gap-5'>
-//                     <button className=' text-white'>{item.title}</button>
-//                 </div>
-//             ))} */}

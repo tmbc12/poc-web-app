@@ -9,19 +9,19 @@ const home = () => {
                 <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?"
-                    className=" mx-auto w-[60%]" alt=''
+                    className=" mx-auto w-[90%]" alt=''
                 />
-                <div className=" m-auto flex flex-col justify-center items-center self-center mt-24">
+                <div className=" m-auto flex flex-col justify-center items-center self-center mt-16">
                     <img className=' w-12' src={logo} alt="logo" />
-                    <h1 className=' text-white mt-14 text-5xl font-medium tracking-tighter text-center bg-clip-text leading-[65px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]'>Get what you
+                    <h1 className=' text-white mt-12 text-3xl font-medium tracking-tighter text-center bg-clip-text leading-[65px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]'>Get what you
                         want twice
                         as fast.</h1>
 
                     <main>
                         <button aria-label="Let's Go">
                             <div>
-                                <span class="inner">
-                                    <div class="particles" aria-hidden="true"></div>
+                                <span classname="inner">
+                                    <div classname="particles" aria-hidden="true"></div>
                                     <a href="/search">
                                         <span class="text">Let's Go</span></a>
                                     <span class="halo" aria-hidden="true"></span>
@@ -35,7 +35,7 @@ const home = () => {
                 <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/b6dad51d54783c83df5d98e040a810b86fc984f01d096e745e0c6187b7332115?" alt=''
-                    className=" mx-auto mt-24 w-[60%]"
+                    className=" mx-auto mt-24 w-[90%]"
                 />
             </div>
         </div>
