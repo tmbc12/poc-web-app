@@ -6,7 +6,8 @@ export  const productpageData = [
         brand:"AVEJO",
         ratting:"4.4",
         description: "Men Printed Polo Neck Polyester Black T-Shirt",
-        price:"349"
+        price:"349",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/cdf4aea6-681f-5537-4ced-e90e63c5eb05.png"
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export  const productpageData = [
         brand:"AVEJO",
         ratting:"4.2",
         description: "Men Checkered Round Neck Cotton Blend Black T-Shirt",
-        price:"419"
+        price:"419",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/163416ee-bf1b-9107-adba-6523aeac7ed8.png"
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ export  const productpageData = [
         brand:"EyeBogler",
         ratting:"4.2",
         description: "Men Solid Round Neck Polyester Black T-Shirt",
-        price:"254"
+        price:"254",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/a2359e46-eca2-0207-571e-753c157dd253.png"
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ export  const productpageData = [
         brand:"EyeBogler",
         ratting:"4.2",
         description: "Men Solid Round Neck Polyester Black T-Shirt",
-        price:"254"
+        price:"254",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/388f174b-63a4-c2de-32d4-fd2f29acb032.png"
     },
     {
         id: 5,
@@ -42,7 +46,8 @@ export  const productpageData = [
         brand:"Jump Cuts",
         ratting:"4.2",
         description: "Men Printed, Typography Round Neck Cotton Blend ",
-        price:"299"
+        price:"299",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/163416ee-bf1b-9107-adba-6523aeac7ed8.png"
     },
     {
         id: 6,
@@ -51,7 +56,8 @@ export  const productpageData = [
         brand:"Mr Bowerbird ",
         ratting:"4.2",
         description: "Men Typography Round Neck Pure Cotton Black T-Shirt",
-        price:"315"
+        price:"315",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/cdf4aea6-681f-5537-4ced-e90e63c5eb05.png"
     },
     
     {
@@ -61,7 +67,8 @@ export  const productpageData = [
         brand:"HRX by Hrithik  ",
         ratting:"4.2",
         description: "Men Typography Round Neck Pure Cotton Black T-Shirt ",
-        price:"315"
+        price:"315",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/388f174b-63a4-c2de-32d4-fd2f29acb032.png"
     },
     {
         id: 8,
@@ -70,15 +77,17 @@ export  const productpageData = [
         brand:"Jump Cuts ",
         ratting:"4.2",
         description: "Men Typography Round Neck Pure Cotton Black T-Shirt",
-        price:"315"
+        price:"315",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/163416ee-bf1b-9107-adba-6523aeac7ed8.png"
     },
     {
         id: 9,
-        image:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/cdebb2c9-d538-2eaa-bc89-c3b84373b5ec.png",
+        image:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/908d6eeb-63d7-7a0a-2fce-15f2239cbdd4.png",
         name: "EyeBogler",
         brand:"EyeBogler",
         ratting:"4.2",
         description: "Men Typography Round Neck Pure Cotton Black T-Shirt",
-        price:"350"
+        price:"350",
+        img:"https://mcusercontent.com/4d495ae0bbe9396d5b9e37d4a/images/cdf4aea6-681f-5537-4ced-e90e63c5eb05.png"
     },
 ];
