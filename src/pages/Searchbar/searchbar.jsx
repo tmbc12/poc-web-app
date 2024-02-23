@@ -11,7 +11,7 @@ const Searchbar = () => {
     return (
         <div className=' flex '>
            <Sidebar />
-            <div className=' bg-[#4b1f5252] h-screen border-l-4 border-gray-800 border-opacity-40 '>
+            <div className=' bg-[#4b1f5252] h-screen w-screen border-l-4 border-gray-800 border-opacity-40 '>
                 <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/749c7892e93dae7e49a25aa44bcd113aba2a5498821c96886e520a53ec71a690?" alt=''

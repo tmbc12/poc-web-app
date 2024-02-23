@@ -15,7 +15,7 @@ const Productpage = () => {
                     </div>
                 </div>
             </div>
-            <div className=' grid grid-cols-4 grid-rows-3 gap-4 justify-center items-center p-10 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center '>
+            <div className=' grid grid-cols-4 grid-rows-3 gap-4 justify-center items-center p-10 xl:grid-cols-5 max-md:grid-cols-2 max-lg:grid-cols-3 max-sm:grid-cols-1 max-sm:items-center max-sm:justify-center '>
                 {items.map((item) => (
                     <div key={item.id} className=' flex gap-5 justify-center items-center max-sm:items-center max-sm:justify-center '>
                         <div className="flex overflow-hidden relative flex-col shadow-2xl aspect-[0.72] max-w-[329px]">
